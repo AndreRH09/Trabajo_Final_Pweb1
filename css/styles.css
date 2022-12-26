@@ -1,15 +1,21 @@
 .Pag-principal {
-  padding: 5%;
-  margin: 190px;
-  /* /* background-size: cover; */
-  background-position-x: center;
-  background-position-y: center;
-  /* background-attachment: fixed; */
-
+  padding-top: 10%;
+  /* align-items: center; */
+  justify-content: center;
+  /* display: flex; */
 }
 
 body {
-  background-image: url(.\recursos\Mainbg.jpg);
+  background-image: url(../recursos/Mainbg.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+.Pag-principal h1 {
+  font-family: 'Trebuchet MS';
+  font-size: 4em;
 }
 
 .grid {
@@ -18,6 +24,8 @@ body {
 }
 
 .grid div {
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
+  margin: auto;
+
 
 }
