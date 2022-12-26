@@ -1,0 +1,23 @@
+.Pag-principal {
+  padding: 5%;
+  margin: 190px;
+  /* /* background-size: cover; */
+  background-position-x: center;
+  background-position-y: center;
+  /* background-attachment: fixed; */
+
+}
+
+body {
+  background-image: url(.\recursos\Mainbg.jpg);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid div {
+  background: white;
+
+}
