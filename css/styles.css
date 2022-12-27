@@ -15,13 +15,29 @@ nav {
   padding-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
+  color: white;
+}
+
+.BarraNavegacion h2 {
+  font-size: 35px;
 }
 
 nav ul li {
   color: white;
   list-style-type: none;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 30px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: red;
+  transition: 0.3s;
 }
 
 
@@ -43,13 +59,13 @@ nav ul li {
   /* display: flex; */
 }
 
-/* body {
+body {
   background-image: url(../recursos/Mainbg.jpg);
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
   background-attachment: fixed;
-} */
+}
 
 
 .Pag-principal h1 {
